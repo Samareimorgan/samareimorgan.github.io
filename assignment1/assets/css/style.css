@@ -1,3 +1,27 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    color: #777777;
+    background: #ffffff;
+}
+
 header{
     font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dddddd;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
 }
