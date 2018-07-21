@@ -1,35 +1,56 @@
 <!DOCTYPE html>
-<html lang="en-us"/>
+<html lang="en-us">
 
-<head>
+  <head>
 
-    <meta charset="UTF-8"/>
-    <title>Contact Samantha</title>
+    <meta charset="UTF-8">
+    <title>Samantha's About Page</title>
     <!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css">-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-</head>
+  </head>
 
-<body>
+    <body>
+      <!--Top Header-->
+      <header>
+        
+        <h2 class="MainLogo">Samantha Johnston</h2>
 
-  <header>
-    <h1>Samantha "Samarei" Johnston</h1>
-    <a href="index.html"><h3>About Samantha</h3></a>
-    <a href="portfolio.html"><h3>Samantha's Portfolio</h3></a>
-    <a href="contact.html"><h3>Contact Samantha</h3></a>
-  </header>
+          <!--Navigation Bar-->
+            <ul class="navigation">
+              <li><a href="index.html">About| </a></li>
+              <li><a href="portfolio.html">Portfolio| </a></li>
+              <li><a class="active"href="contact.html" >Contact</a><li>
+            </ul>
 
+      </header>
+        <section id="MainContent">
 
-    <div id="contactform">
+          <h2 class="sectionh2">Contact</h2>
 
-        <form>
+          <!--Contact Form-->
+          <div class="container">
+                <form action="action_page.php">
+              
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="email">Email</label>
+                  <input type="text" id="email" name="email" placeholder="Your email...">
+              
+                  <label for="comment">Comment</label>
+                  <textarea id="comment" name="comment" placeholder="Write your message..." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
 
-        </form>
-
-    </div>
-
-    <footer></footer>
-
-</body>
-
-</html>
+        </section>
+        </div>
+        <footer>Copyright (c)</footer>
+      </body>
+    </html>
