@@ -4,37 +4,47 @@ body {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("assets/images/sun-pattern.png");
+    background-color: #cccccc;
 }
+
 header{
     font-size: 20px;
     font-family: Georgia, Times, Times New Roman serif;
-    padding-bottom: 5px;
     border-bottom: 2px solid #cccccc;
-    overflow: hidden;
+    background-color:#ffffff
 }
-
 .MainLogo {
     background: #4aaaa5;
     color: #ffffff;
     display: inline;
+    margin-left: 185px;
+
 }
 
 .navigation {
-    padding: 8px;
-    margin: 10px;
+    padding-bottom: 15px;
+    margin-right: 185px;
     letter-spacing: 2px;
     float: right;
     font-size: 12px;
+    line-height: 20px;
 }
 
 .active {
     color:blue
 }
 
+.sectionh2 {
+    border-bottom: 2px solid #cccccc;
+}
+
 #MainContent {
     margin: auto;
     text-align: left;
+    padding: 20px;
     width: 960px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
 }
 
 #SamanthasPic {
@@ -58,6 +68,6 @@ footer {
     margin: 0px;
     text-align: center;
     font-size: 12px;
-    border: #4aaaa5;
+    border-top: 5px solid #4aaaa5;
 }
 
