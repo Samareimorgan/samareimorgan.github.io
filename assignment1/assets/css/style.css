@@ -3,24 +3,14 @@ body {
     padding: 0px;
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
-    display: inline;
-   
-}
-
-.background {
     background-image: url("assets/images/sun-pattern.png");
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no;
-}
-    
 }
 header{
     font-size: 20px;
-    font-family: font-family; 'Georgia'; Times; Times New Roman; serif;
-    border-color: #cccccc;
-    margin-bottom:5px;
+    font-family: Georgia, Times, Times New Roman serif;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #cccccc;
+    overflow: hidden;
 }
 
 .MainLogo {
@@ -32,9 +22,9 @@ header{
 .navigation {
     padding: 8px;
     margin: 10px;
-    display: inline;
-    float: right;
     letter-spacing: 2px;
+    float: right;
+    font-size: 12px;
 }
 
 .active {
@@ -42,11 +32,9 @@ header{
 }
 
 #MainContent {
-    padding: 20px;
     margin: auto;
     text-align: left;
     width: 960px;
-    border: 3px #dddddd;
 }
 
 #SamanthasPic {
@@ -66,8 +54,10 @@ li {
 footer {
     clear: both;
     background: #666666;
-    padding: 10px;
+    padding: 15px;
     margin: 0px;
     text-align: center;
+    font-size: 12px;
+    border: #4aaaa5;
 }
 
