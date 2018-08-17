@@ -32,6 +32,25 @@ header{
     line-height: 20px;
 }
 
+.navigation li {
+    display: inline-block;
+    border-right: thin solid black;
+}
+
+.navigation li:last-of-type {
+    border-right: none;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: purple;
+
+}
+.navigation li a:hover {
+  color: blue;
+}
+
+
 .active {
     color:blue
 }
@@ -62,9 +81,9 @@ ul {
     overflow: hidden;
 }
 
-li {
+/* li {
     display: inline;
-}
+} */
 
 footer {
     clear: both;
@@ -104,7 +123,12 @@ input[type=submit]:hover {
     float: left;
     margin-right: 10px;
     margin-top: 10px;
+    position: relative;
 } 
+
+.gallery a {
+    display: inline-block;
+}
 
 .desc {
     background: #4aaaa5;
@@ -112,4 +136,6 @@ input[type=submit]:hover {
     padding: 10px;
     width: 278px;
     border: 1px solid #cccccc;
+    position: absolute;
+    bottom: 8%;
 }
