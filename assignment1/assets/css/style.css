@@ -1,25 +1,31 @@
 body {
     margin: 0px;
     padding: 0px;
-    color: #777777;
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url("assets/images/sun-pattern.png");
-    background-color: #cccccc;
+    color: black;
+    font-family: 'Handlee', cursive;
+    background-image: url("../images/abstract.png");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 
 header{
     font-size: 20px;
-    font-family: Georgia, Times, Times New Roman serif;
+    font-family: 'Merienda', cursive;
     border-bottom: 2px solid #cccccc;
-    background-color:#ffffff;
+    background-color: black;
+    color: Black;
     padding-bottom: 20px;
 }
+
 .MainLogo {
-    background: #4aaaa5;
-    color: #ffffff;
+    background: hsla(306, 70%, 52%, 0.89);
+    color: black;
     display: inline;
     margin-left: 185px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
+    padding-top: 5px;
 
 }
 
@@ -28,13 +34,14 @@ header{
     margin-right: 185px;
     letter-spacing: 2px;
     float: right;
-    font-size: 12px;
+    font-size: 18px;
     line-height: 20px;
 }
 
 .navigation li {
     display: inline-block;
-    border-right: thin solid black;
+    border-right: 2px solid #0b08a5;
+    padding-right: 2px;
 }
 
 .navigation li:last-of-type {
@@ -81,8 +88,8 @@ ul {
     overflow: hidden;
 }
 
-/* li {
-    display: inline;
+/* font-family: 'Merienda', cursive;
+font-family: 'Handlee', cursive;
 } */
 
 footer {
@@ -138,6 +145,11 @@ input[type=submit]:hover {
     border: 1px solid #cccccc;
     position: absolute;
     bottom: 8%;
+}
+
+.fa-bug {
+    font-size: 16px;
+    color: darkmagenta;
 }
 
 .trivia {
