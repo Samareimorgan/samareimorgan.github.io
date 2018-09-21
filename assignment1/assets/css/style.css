@@ -138,7 +138,7 @@ input[type=submit]:hover {
 }
 
 .desc {
-    background: #4aaaa5;
+    background: #6e148a;
     color: #ffffff;
     padding: 10px;
     width: 278px;
@@ -149,13 +149,12 @@ input[type=submit]:hover {
 
 .fa-bug {
     font-size: 16px;
-    color: darkmagenta;
+    color: black;
 }
 
 .fa-check {
     font-size: 16px;
-    color: darkmagenta;
-
+    color: black;
 }
 
 .trivia {
