@@ -160,3 +160,7 @@ input[type=submit]:hover {
 .trivia {
     margin: 0;
 }
+.linkedin {
+    height: 25px;
+    width: 25px;
+}
