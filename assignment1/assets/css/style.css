@@ -152,6 +152,12 @@ input[type=submit]:hover {
     color: darkmagenta;
 }
 
+.fa-check {
+    font-size: 16px;
+    color: darkmagenta;
+
+}
+
 .trivia {
     margin: 0;
 }
