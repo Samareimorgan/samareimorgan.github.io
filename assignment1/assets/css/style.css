@@ -19,6 +19,12 @@ header{
     padding-bottom: 20px;
 }
 
+.socialmedia{
+    height: 35px;
+    width: 35px;
+
+}
+
 .MainLogo {
     background: hsla(306, 70%, 52%, 0.89);
     color: black;
