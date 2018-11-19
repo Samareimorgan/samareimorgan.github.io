@@ -25,6 +25,12 @@ header{
 
 }
 
+.github {
+    height: 25px;
+    width: 25px;
+    padding-left: 10px;
+}
+
 .MainLogo {
     background: hsla(306, 70%, 52%, 0.89);
     color: black;
@@ -156,11 +162,13 @@ input[type=submit]:hover {
 .fa-bug {
     font-size: 16px;
     color: black;
+    padding-left: 5px;
 }
 
 .fa-check {
     font-size: 16px;
     color: black;
+    padding-left: 5px;
 }
 
 .trivia {
